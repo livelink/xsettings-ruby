@@ -1,0 +1,10 @@
+pkg/*
+tmp/
+ext/*/extconf.rb
+ext/*/*.rd
+*.so
+*.o
+
+
+ext/xsettings/xsettings.c
+
