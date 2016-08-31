@@ -29,6 +29,7 @@ spec = Gem::Specification.new do |s|
 	s.homepage = "http://github.com/geoffyoungs/xsettings-ruby"
 	s.summary = "xsettings bindings using rubber-generate"
 	s.add_dependency("rubber-generate", ">= 0.0.17")
+  s.add_dependency("gtk2", ">= 2.0.0")
   s.license = 'LGPL-2'
   s.platform = Gem::Platform::RUBY
 	s.extensions = FileList["ext/*/extconf.rb"]
