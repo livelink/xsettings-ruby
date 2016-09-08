@@ -1,4 +1,4 @@
-XSettings Manager v0.0.2
+XSettings Manager v0.0.5
 ========================
 
 Description
