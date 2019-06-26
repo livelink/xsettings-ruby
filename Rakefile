@@ -26,11 +26,11 @@ spec = Gem::Specification.new do |s|
 	s.author = "Geoff Youngs"
 	s.email = "git@intersect-uk.co.uk"
 	s.version = XSettings::VERSION
-	s.homepage = "http://github.com/geoffyoungs/xsettings-ruby"
+	s.homepage = "http://github.com/livelink/xsettings-ruby"
 	s.summary = "xsettings bindings using rubber-generate"
 	s.add_dependency("rubber-generate", ">= 0.0.17")
-  s.add_dependency("gtk2", "=2.0.0")
-  s.add_dependency("glib2", "=2.0.0")
+  s.add_dependency("gtk2", ">= 2.0.0")
+  s.add_dependency("glib2", ">= 2.0.0")
   s.license = 'LGPL-2'
   s.platform = Gem::Platform::RUBY
 	s.extensions = FileList["ext/*/extconf.rb"]
@@ -54,4 +54,3 @@ Rake::TestTask.new do |t|
 end
 
 task :default, :compile
-
